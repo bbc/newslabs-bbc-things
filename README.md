@@ -14,6 +14,7 @@ with.
 ## Passing a string
 
 ```javascript
+var BBCThings = require('bbc-things');
 var text = "David Cameron";
 BBCThings.search(text)
 .then(function(things) {
@@ -34,6 +35,7 @@ BBCThings.search(text)
 ## Passing an array of strings
 
 ```javascript
+var BBCThings = require('bbc-things');
 var arrayOfStrings = ["Kenya", "Nairobi"];
 BBCThings.search(arrayOfStrings)
 .then(function(things) {
@@ -72,6 +74,7 @@ You can access additional information by calling .properties() on a Thing.
 The properties vary depending on the entity (e.g. places have lat/lon properties).
 
 ```javascript
+var BBCThings = require('bbc-things');
 BBCThings.search("Ed Miliband")
 .then(function(things) {
     thing[0].properties()
@@ -121,6 +124,7 @@ For example, if you want to get the Thing for "Kenya", but were not interested
 in the data for Kenyan Politican "Uhuru Kenyatta" returned you could do this:
 
 ```javascript
+var BBCThings = require('bbc-things');
 BBCThings.search("Kenya", true)
 .then(function(things) {
     console.log(things);

@@ -6,7 +6,7 @@
   },
   "name": "bbc-things",
   "description": "An unoffical client for the BBC Things Linked Data Platform",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./lib/bbc-things.js",
   "keywords": [
     "bbc",
