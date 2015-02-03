@@ -1,0 +1,30 @@
+{
+  "author": {
+    "name": "Iain Collins",
+    "email": "iain.collins@bbc.co.uk",
+    "url": "http://bbcnewslabs.co.uk"
+  },
+  "name": "bbc-things",
+  "description": "An unoffical client for the BBC Things Linked Data Platform",
+  "version": "1.0.3",
+  "main": "./lib/bbc-things.js",
+  "keywords": [
+    "bbc",
+    "things",
+    "bbc things",
+    "uri",
+    "linked data"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BBC-News-Labs/BBC-Things.git"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "q": "^1.1.2",
+    "request": "^2.53.0"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
