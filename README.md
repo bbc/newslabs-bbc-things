@@ -133,7 +133,7 @@ BBCThings.search("Kenya", true)
 
 ### Contributions and thanks
 
-This is a very simple library and is entirely unoffical and was not created by
+This is a very simple library and is entirely unofficial and was not created by
 the folks who've created the excellent BBC Things site which it uses.
 
 It was created to make it easier to do experiments with linked data and to try 
